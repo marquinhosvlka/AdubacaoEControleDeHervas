@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Definição de Adubação</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Definição de Adubação</h1>
+        <form id="adubacaoForm">
+            <label for="ph">pH do Solo:</label>
+            <input type="number" id="ph" step="0.1" required>
+
+            <label for="tipoSolo">Tipo de Solo:</label>
+            <select id="tipoSolo" required>
+                <option value="arenoso">Arenoso</option>
+                <option value="argiloso">Argiloso</option>
+            </select>
+
+            <label for="tipoCultivo">Tipo de Cultivo:</label>
+            <select id="tipoCultivo" required>
+                <option value="planta">Planta</option>
+                <option value="soqueira">Soqueira</option>
+            </select>
+
+            <label for="estadoFolhas">Estado das Folhas:</label>
+            <select id="estadoFolhas" required>
+                <option value="normal">Normal</option>
+                <option value="amareladas">Amareladas</option>
+                <option value="manchas escuras">Manchas Escuras</option>
+                <option value="bordas amarelas">Bordas Amarelas</option>
+                <option value="nervuras claras">Nervuras Claras</option>
+            </select>
+
+            <label for="ervaDaninha">Erva Daninha:</label>
+            <select id="ervaDaninha" required>
+                <option value="">Selecione uma erva daninha</option>
+                <option value="capim colonião">Capim Colonião</option>
+                <option value="tiririca">Tiririca</option>
+                <option value="grama-seda">Grama-Seda</option>
+                <option value="capim-amargoso">Capim-Amargoso</option>
+                <option value="braquiária">Braquiária</option>
+                <option value="corda-de-viola">Corda-de-Viola</option>
+                <option value="capim-marmelada">Capim-Marmelada</option>
+                <option value="capim-carrapicho">Capim-Carrapicho</option>
+                <option value="capim-de-pé-de-galinha">Capim-de-Pé-de-Galinha</option>
+                <option value="amendoim-bravo">Amendoim-Bravo</option>
+                <option value="picão-preto">Picão Preto</option>
+                <option value="caruru">Caruru</option>
+                <option value="trapoeraba">Trapoeraba</option>
+                <option value="mentrasto">Mentrasto</option>
+                <option value="beldroega">Beldroega</option>
+                <option value="capim-massambará">Capim-Massambará</option>
+                <option value="capim-gengibre">Capim-Gengibre</option>
+                <option value="erva-de-rola">Erva-de-Rola</option>
+                <option value="poaia-branca">Poaia Branca</option>
+                <option value="guanxuma">Guanxuma</option>
+                <option value="carrapicho-de-carneiro">Carrapicho de Carneiro</option>
+                <option value="serralha">Serralha</option>
+                </select>
+    
+                <button type="submit">Calcular Adubação</button>
+            </form>
+    
+            <div id="result"></div>
+        </div>
+    
+        <script src="script.js"></script>
+    </body>
+    </html>
+    
