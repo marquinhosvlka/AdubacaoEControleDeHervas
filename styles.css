@@ -30,6 +30,13 @@ input, select, button {
     border: 1px solid #ccc;
     border-radius: 4px;
 }
+input {
+    width: 96.5%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
 
 button {
     background-color: #28a745;
